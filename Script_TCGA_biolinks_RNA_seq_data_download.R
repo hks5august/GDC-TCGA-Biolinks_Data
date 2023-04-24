@@ -41,7 +41,6 @@ for (c in 1:length(list1))
 
   tryCatch({
 
-    ?GDCquery
     
 query<- GDCquery(project = cancer, 
                  data.category = "Transcriptome Profiling", 
